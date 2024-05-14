@@ -5,15 +5,15 @@ public class Main {
         Parser parser = new Parser();
 
         List<String> statements = List.of(
-            "The cat sat on the mat.",
-            "The clever robot moved the blue mat to the tall stand.",
-            "Two students went to the bar late last night.",
-            "Many students are downloading large tickets before the exams."
+            "The cat sat on the mat",
+            "The clever robot moved the blue mat to the tall stand",
+            "Two students went to the bar late last night",
+            "Many students are downloading large tickets before the exams"
         );
 
         for (String statement : statements) {
             ParseTree parseTree = parser.parse(statement);
-            // System.out.println("Parse Tree: " + parseTree);
+            System.out.println("Parse Tree: " + parseTree);
 
 			System.out.println("##################### TOKENS #####################");
             List<Token> tokens = parser.tokenize(statement);

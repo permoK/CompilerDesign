@@ -4,8 +4,8 @@ import java.util.StringTokenizer;
 
 public class Parser {
 	private static final List<String> ARTICLES = List.of("The", "the");
-	private static final List<String> ADJECTIVES = List.of("clever", "blue", "Many", "Two", "late", "last", "large");
-	private static final List<String> NOUNS = List.of("cat", "mat", "robot", "students", "bar", "night", "tickets", "exams");
+	private static final List<String> ADJECTIVES = List.of("clever", "blue", "Many", "Two", "late", "last", "large", "tall");
+	private static final List<String> NOUNS = List.of("cat", "mat", "robot", "students", "bar", "night", "tickets", "exams", "stand");
 	private static final List<String> VERBS = List.of("sat", "moved", "went", "are", "downloading");
 	private static final List<String> PREPOSITIONS = List.of("on", "to", "before");
 
